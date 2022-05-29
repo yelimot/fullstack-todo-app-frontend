@@ -1,0 +1,9 @@
+.header {
+    background-color: #00833F;
+    color: aliceblue;
+    font-family: inherit;
+    font-size: 3em;
+    margin: auto -16px;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
