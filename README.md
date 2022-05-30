@@ -34,8 +34,10 @@ The project was created with Go on backend and React & TypeScript on frontend.
       
 ### Steps to run frontend:
 
-After clone this repository change directory to todo-app-frontend and npm start
+After clone this repository change directory to fullstack-todo-app-frontend and npm start
 <pre>
 cd todo-app-frontend
 npm start
 </pre>
+
+Click [here](https://github.com/yelimot/fullstack-todo-app-backend) to see the backend source code and REST API documentation.
