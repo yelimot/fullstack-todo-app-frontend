@@ -29,7 +29,7 @@
 .searchForm {
     display: flex;
 }
-.searchForm button {
+.searchForm button, .searchReset {
     font-size: medium;
     background: #f5ba13;
     color: #fff;
@@ -39,6 +39,10 @@
     box-shadow: 0 1px 5px rgb(138, 137, 137);
     cursor: pointer;
     outline: none;
+}
+
+.searchReset {
+    margin-right: 10px;
 }
 
 .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{

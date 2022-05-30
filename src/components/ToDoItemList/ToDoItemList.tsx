@@ -80,6 +80,10 @@ const ToDoItemList: React.FunctionComponent<IToDoList> = ({
     init();
   }
 
+  async function handleSearchReset() {
+    window.location.reload();
+  }
+
   return (
     <div className="list">
       <div>
@@ -94,6 +98,9 @@ const ToDoItemList: React.FunctionComponent<IToDoList> = ({
             />
             <button type="submit">Search</button>
           </form>
+          <button className="searchReset" onClick={handleSearchReset}>
+            Reset Search
+          </button>
           <div className="sort">
             <Box sx={{ minWidth: 60 }}>
               <FormControl fullWidth>
