@@ -59,8 +59,6 @@ const UpdateModal: React.FunctionComponent<UpdateModalProps> = ({
 
   async function handleUpdate(event: any) {
     event.preventDefault();
-    event.stopPropagation(); // bunu araştır
-    event.cancelBuble = true; // bunu araştır
     const responseResult = await UpdateToDoItemRequest({
       ...toDoItem,
     });
