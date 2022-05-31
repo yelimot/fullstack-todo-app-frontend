@@ -23,7 +23,6 @@ const ToDoItem: React.FunctionComponent<ToDoItemProps> = ({
 }) => {
   async function handleDelete(event: any) {
     event.preventDefault();
-    event.stopPropagation(); // bunu araştır
     const responseResult = await DeleteToDoItemRequest(id);
     if (responseResult === true) {
       refreshOnDelete();
