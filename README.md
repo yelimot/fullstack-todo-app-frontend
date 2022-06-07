@@ -25,7 +25,7 @@ The project was created with Go on backend and React & TypeScript on frontend.
 -	camelCase.ts for other files such as api helpers etc.
 
 ### Frontend folder hierarchy:
-      └── public                 // manifest, icons, fonts etc.
+      └── public                // manifest, icons, fonts etc.
         └── src
           ├── api               // axios instance, api request controllers
           ├── components        // reusable components
